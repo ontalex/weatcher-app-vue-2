@@ -74,6 +74,9 @@ const com_datetime = computed(() => {
 
 <style lang="scss" scoped>
 .forecast-card {
+  max-width: 100%;
+  min-width: 60px;
+
   padding: 16px 8px 16px 8px;
 
   display: grid;
@@ -101,9 +104,15 @@ const com_datetime = computed(() => {
     letter-spacing: -0.5px;
     text-align: left;
 
+    color: #FFFFFF;
+
   }
 
   // &__iconbox {}
+
+  &__icon {
+    width: 32px;
+  }
 
   &__probability {
     font-family: "SF Pro Text";
@@ -122,9 +131,11 @@ const com_datetime = computed(() => {
   &__temperature {
     font-family: "SF Pro Display";
     font-size: 20px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 24px;
     text-align: left;
+
+    color: #FFFFFF;
   }
 }
 </style>

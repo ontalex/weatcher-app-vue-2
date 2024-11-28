@@ -68,10 +68,6 @@ const this_day = computed(() => {
   }
 
   &__temperature {
-    // /*font-size: 96px;*/
-    // font-size: 6rem;
-
-    // font-weight: 200;
 
     font-family: SF Pro Display;
     font-size: 96px;
